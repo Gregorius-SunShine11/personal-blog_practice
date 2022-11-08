@@ -28,7 +28,3 @@ Route::get('/biodata', function () {
 Route::get('/event', function () {
     return view('universitas\event');
 });
-
-Route::get('/game', function () {
-    return view('universitas\game');
-});
