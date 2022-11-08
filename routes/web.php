@@ -18,13 +18,13 @@ Route::get('/', function () {
 });
 
 Route::get('/home', function () {
-    return view('universitas\home');
+    return view('blog\home');
 });
 
 Route::get('/biodata', function () {
-    return view('universitas\biodata');
+    return view('blog\biodata');
 });
 
 Route::get('/event', function () {
-    return view('universitas\event');
+    return view('blog\event');
 });
