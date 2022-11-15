@@ -4,15 +4,47 @@
 
 @section('konten')
 
+    <link href="{{ asset('css/biodata.css') }}" rel="stylesheet">
+
     <p> 
-        Halo, nama saya Gregorius. Saya merupakan mahasiswa Computer Science dari Universitas Bina Nusantara.
-        Umur saya 20 tahun. Saya merupakan seorang programmer yang tertarik di bidang Intelligent Systems. 
+        Berikut dibawah ini merupakan data diri saya :
     </p>
+
     <br>
+
+    <table class="table table-sm" border="1">
+        <tr>
+            <td>{{ "Nama : " }}</td>
+            <td>{{ "  Gregorius  " }}</td>
+        </tr>
+        <tr>
+            <td>{{ "Usia : " }}</td>
+            <td>{{ "  20 tahun  " }}</td>
+        </tr>
+        <tr>
+            <td>{{ "Jenis Kelamin : " }}</td>
+            <td>{{ "  Laki-laki  " }}</td>
+        </tr>
+        <tr>
+            <td>{{ "Status/Pekerjaan : " }}</td>
+            <td>{{ "  Mahasiswa  " }}</td>
+        </tr>
+        <tr>
+            <td>{{ "Jurusan : " }}</td>
+            <td>{{ "  Computer Science " }}</td>
+        </tr>
+        <tr>
+            <td>{{ "Sekolah/Kampus : " }}</td>
+            <td>{{ "  Binus University  " }}</td>
+        </tr>
+    </table>
+
+    <br>
+
     <p>
-        Selain itu, saya juga memiliki hobi di bidang Competitive Programming, karena saya tertarik dengan algoritma dan
-        matematika yang digunakan dalam Competitive Programming dan juga saya senang berkompetisi dengan sehat 
-        untuk mengasah kemampuan saya.
+        Sebagai mahasiswa Computer Science, saya tertarik dengan bidang Intelligent Systems, dan ingin menjadi seorang Machine Learning
+        Engineer setelah lulus kuliah. Selain itu, saya juga memiliki hobi di Competitive Programming, dimana saya dapat mengasah kemampuan algoritma dan matematika
+        saya sekaligus berkompetisi secara sehat bersama dengan orang-orang yang memiliki hobi yang sama dengan saya.
     </p>
 
     <br>

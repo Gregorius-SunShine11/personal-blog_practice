@@ -10,15 +10,24 @@
 <header>
  
     <h1>Gregorius' Personal Blog</h1>
-    <nav>
-        <a href="/home">Home</a>
-        <a href="/biodata">Biodata</a>
-        <a href="/event">Events</a>
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="biodata">Biodata</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="event">Event</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
-    </header>
-    <br/>
-    <br/>
-    <br/>
 
     <h2> @yield('judul_halaman') </h2>
 

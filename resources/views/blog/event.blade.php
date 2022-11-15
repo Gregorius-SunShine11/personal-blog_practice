@@ -4,6 +4,8 @@
 
 @section('konten')
 
+    <link href="{{ asset('css/event.css') }}" rel="stylesheet">
+
     @php
     $events = [
     ["INC 2021", 
@@ -19,15 +21,15 @@
     @endphp
 
     @foreach($events as $e)
-    <div class="card" style="width: 18rem;">
-        <div class="card-body">
-            <h3 class="card-title">{{ $e[0] }}</h3>
-            <h4 class="card-text">{{ $e[1] }}</h4>
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h3 class="card-title">{{ $e[0] }}</h3>
+                <h4 class="card-text">{{ $e[1] }}</h4>
+            </div>
         </div>
-    </div>
     @endforeach
 
-    <table class="table table-sm">
+    <table class="table table-sm" border="1">
         <thead>
             <tr>
                 <th>Lomba</th>

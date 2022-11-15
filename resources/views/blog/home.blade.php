@@ -3,6 +3,7 @@
 @section('judul_halaman', 'Hello!')
 
 @section('konten')
+    <link href="{{ asset('css/home.css') }}" rel="stylesheet">
 
     <h3>Selamat datang di blog saya!</h3> 
     <br>

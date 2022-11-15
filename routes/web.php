@@ -17,14 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/home', function () {
-    return view('blog\home');
-});
-
-Route::get('/biodata', function () {
-    return view('blog\biodata');
-});
-
-Route::get('/event', function () {
-    return view('blog\event');
-});
+Route::get('/home', 'App\Http\Controllers\BlogController@home');
+Route::get('/biodata', 'App\Http\Controllers\BlogController@biodata');
+Route::get('/event', 'App\Http\Controllers\BlogController@event');
